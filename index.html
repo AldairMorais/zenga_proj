@@ -17,8 +17,8 @@
 
     <!-- Delete after testing -->
 
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <script src="bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script> -->
 <style>
  :root {
   --swiper-image-ratio: 33.3%; /* ratio 16:9 = 56.25% */
@@ -159,25 +159,39 @@
               <li class="nav-item">
                 <a class="nav-link text-uppercase text-white-50" href="#">Serviços</a>
                 <li class="nav-item">
-                  <a class="nav-link text-uppercase text-white-50" href="#">Legislação</a>
+                  
+                  <div class="btn-group dropstart">
+                    <button class="btn btn-transparent dropdown text-white-50" type="button" id="dropstartMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link text-uppercase text-white-50" href="#">Legislação</a>
+                    </button>
+                    <ul id="dropd" class="dropdown-menu bg-transparent mt-5">
+                      <li><a class="dropdown-item text-black-50" href="#">Lei nº 137 de 22 de julho de 2022</a></li>
+                      <li><a class="dropdown-item text-black-50" href="#">Lei nº 182 de 22 de julho de 2022</a></li>
+                      <li><a class="dropdown-item text-black-50" href="#">Lei nº 137 de 22 de julho de 2022</a></li>
+                      <li><a class="dropdown-item text-black-50" href="#">Lei nº 182 de 22 de julho de 2022</a></li>
+                      <li><a class="dropdown-item text-black-50" href="#">Lei nº 137 de 22 de julho de 2022</a></li>
+                      <li><a class="dropdown-item text-black-50" href="#">Lei nº 182 de 22 de julho de 2022</a></li>
+                    </ul>
+                  </div>
                   <li class="nav-item">
                     <a class="nav-link text-uppercase text-white-50" href="#">Notícia</a>
                     <li class="nav-item">
                       <a class="nav-link text-uppercase text-white-50" href="#">Loja</a>
                     </li>
                     <li class="nav-item">
-                      
-                     <div class="dropstart">
+              
+
+                    <div class="btn-group dropstart">
                       <button class="btn btn-transparent dropdown text-white-50" type="button" id="dropstartMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fas text-white-50 fa-globe"></i>
                       </button>
-                      <ul id="dropd" class="dropdown-menu bg-transparent mt-5" aria-labelledby="dropstartMenuButton" style="">
-                        <!-- <li><h6 class="dropdown-header">Dropdown header</h6></li> -->
-                        <li><a class="dropdown-item text-black-50" href="#">Inglês</a></li>
+                      <ul id="dropd" class="dropdown-menu bg-transparent mt-5">
+                        <li><a class="dropdown-item text-black-50" href="#">English</a></li>
+                        <li><a class="dropdown-item text-black-50" href="#">Français</a></li>
                         <li><a class="dropdown-item text-black-50" href="#">Português</a></li>
-                        <li><a class="dropdown-item text-black-50" href="#">Something else here</a></li>
                       </ul>
                     </div>
+
                     </li>
 
                     <li>
